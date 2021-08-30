@@ -1,0 +1,13 @@
+/* configs */
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{--principal_media: #7BA7FF;--secundaria: #03258C;--media:#D9EAFF;--cinza:#E4E4E4;}
+/* header */
+.bg-azul{width: 100%; background-color: var(--principal_media); display: flex; flex-direction: column; height: 200px; background-image: url(../img/bg/bg.svg); position: absolute;z-index: 1;}
+.logo{ padding: 20px; text-align: center;  border-bottom: 3px solid #fff; border-right:3px solid #fff ; border-left: 3px solid #fff; background-color: var(--secundaria); height: 160px;max-width: 500px; margin: 0 auto;}
+.logo h1{font-family: 'Hina Mincho', serif; color: #fff;}
+.logo h1::after{content: ''; display: block; width: 300px; height: 2px; background-color: #fff; margin-top: 10px;}
+.logo p{font-family: 'Aguafina Script', cursive; color:#fff; font-size: 1.5em; letter-spacing: 0.1em;}
+.oculos{position: absolute; top: 0; z-index: 100;}
+
