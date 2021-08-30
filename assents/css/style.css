@@ -3,11 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 :root{--principal_media: #4391CE;--secundaria: #001f47;--media:#D9EAFF;--cinza:#b6b6b6;}
-body{font-family: 'Montserrat', sans-serif; background-color: #ffffff;}
+body{font-family: 'Montserrat', sans-serif; }
 main{}
 a{text-decoration: none;}
-/* fim config reset b8b8b8*/
-
+/* fim config reset */
+.teste{background-color:#e2e2e2;}
 /* nav */
 .navbar-menu-br{background-color: rgb(0, 0, 0); display: flex; justify-content: space-around; padding: 10px; align-items: center;}
 .navbar-menu-br form{display: flex;  }
