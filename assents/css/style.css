@@ -3,11 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 :root{--principal_media: #4391CE;--secundaria: #001f47;--media:#D9EAFF;--cinza:#b6b6b6;}
-body{font-family: 'Montserrat', sans-serif; }
+body{font-family: 'Montserrat', sans-serif; background-color:#f7f7f7;}
 main{}
 a{text-decoration: none;}
 /* fim config reset */
-.bg-cinza{background-color:#ebebeb; margin-top: -200px;}
+.bg-cinza{background-color:#e2e2e2; margin-top: -200px;}
 /* nav */
 .navbar-menu-br{background-color: rgb(0, 0, 0); display: flex; justify-content: space-around; padding: 10px; align-items: center;}
 .navbar-menu-br form{display: flex;  }
@@ -52,45 +52,37 @@ a{text-decoration: none;}
 
 /* divisor ptht */
 .bg-path{width: 93%; height: 200px; margin: 0 auto; background-color: var(--principal_media);margin-top: 70px; background-image: url(../img/bg/bg.svg);box-shadow: 0px 0px 10px 2px #0000004f!important; display: flex;}
-.path{
-    width: 100%;
-    height: 100%;
-    clip-path: polygon(0 0, 50% 0, 80% 100%, 0% 100%);
-    background-color: var(--secundaria);
-    padding-top: 50px;
-
-}
-
-.path h2{
-    margin-left: 100px;
-    font-weight: bold;
-    color: #fff;
-}
+.path{width: 100%;height: 100%;clip-path: polygon(0 0, 50% 0, 80% 100%, 0% 100%);background-color: var(--secundaria);padding-top: 50px;}
+.path h2{margin-left: 100px;font-weight: bold;color: #fff;}
 .path-img {display: flex; justify-content: flex-end; align-items: center; }
-
 .path-img .oculos-path{width: 200px;}
-
 .path h2::after{content: ''; display: block; width: 300px; height: 3px; background-color: #fff; margin-left: 0px; margin-top: 10px;}
 .path p{font-family: 'Aguafina Script', cursive; color:#fff; font-size: 1.5em; letter-spacing: 0.1em; margin-left: 100px;}
-
 /* box items */
 .box-item{background-color: #ebebeb; max-width: 350px; border: 3px solid var(--cinza);box-shadow: 0px 0px 10px 2px #0000004f!important;}
-.box-item img{
-    width: 100%;
-}
-
-
+.box-item img{width: 100%;}
 /* bg divisor */
 .bg-divisor{ width: 100%; height: 300px; background-color: var(--principal_media); background-image: url(../img/bg/bg.svg); box-shadow:0px 0px 10px 2px #000000af!important ; border-bottom: 10px solid var(--secundaria);}
 .bg-box-item{background-color: var(--secundaria); display: flex; justify-content: center; align-items: center; flex-direction: column; padding: 10px;}
 
+.bg-branco{background-color: #fff;}
+
 .bg-box-item h2{color:#fff;}
 .bg-box-item {color:#fff;}
-
-
  .bg-box-item a{padding: 10px 20px; background-color: var(--principal_media); color: #fff; font-weight: 500; text-transform: uppercase; font-size: 0.9em; letter-spacing: 0.1rem; transition: 0.3s;}
-
  .bg-box-item a:hover{background-color: var(--principal_media); transition: 0.3s; color: rgb(206, 206, 206)!important;}
  .img-footer{ width: 100%;  position: relative; display: flex; justify-content: end; top:-90px; }
  .img-footer img{width: 200px;}
  .footer{width: 100%; height: 50px; margin-top: -150px; text-align: center; }
+ .boxes-footer{ justify-content: space-around!important; }
+ .config-box-footer{ padding: 20px; border: 3px solid rgb(211, 211, 211); margin: 30px 0;}
+ .config-box-footer img{width: 100%;}
+ .config-txt-box {text-align: left; margin-bottom: 35px;}
+ .config-txt-box h3{text-align: left; font-size: 0.9em; font-weight: bold;}
+.sub-preco-do-footer{font-size: 0.8em; color:rgb(197, 197, 197); margin-bottom: -1px; margin-top: 20px;}
+.preco-footer-principal {margin-bottom: 0px!important; }
+.preco-subra{font-size: 0.8em; font-weight: 500; }
+.preco-footer-principal span{font-weight: bold; font-size: 1.3em; }
+.config-box-footer a{ padding: 10px 20px; background-color: var(--principal_media); color: #fff; font-weight: 500; text-transform: uppercase; font-size: 0.9em; letter-spacing: 0.1rem; transition: 0.3s;}
+.config-box-footer a:hover{background-color: var(--principal_media); transition: 0.3s; color: rgb(206, 206, 206)!important;}
+.copy{width: 100%; background-color: #000; padding: 10px;text-align: center; color: #fff;}
